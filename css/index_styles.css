@@ -1,0 +1,109 @@
+body {
+  background-color: #4a6e80;
+  font-family: "Stick No Bills", sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  transition: all 0.5s ease;
+}
+
+.header,
+.navbar {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 1rem;
+  text-align: center;
+  transition: all 0.5s ease;
+  font-size: 40px;
+}
+
+.navbar a {
+  color: #ffffff;
+  margin: 0 1.5rem;
+  text-decoration: none;
+  font-size: 2rem;
+  transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+  color: #0c9ad8;
+}
+
+.content {
+  background-color: #4a6e80;
+  text-align: center;
+  padding: 1rem 200px; /*4rem arriba/abajo y 200px izquierda/derecha */
+  font-size: 30px;
+}
+.contenido {
+  background-color: #ffffff;
+  padding: 1rem 250px;
+}
+.btn {
+  display: inline-block;
+  background-color: #0072b5;
+  color: white;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #005f86;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  transition: all 0.5s ease;
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.feature {
+  width: 300px;
+  border: 3px solid #0072b5;
+
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.feature h3 {
+  color: #0072b5;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.footer {
+  background-color: #000000;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.social-icons {
+  margin-bottom: 1rem;
+}
+
+.social-icon {
+  color: white;
+  font-size: 1.5rem;
+  margin: 0 0.5rem;
+  transition: color 0.3s ease;
+}
+
+.social-icon:hover {
+  color: #ffffff80;
+}
